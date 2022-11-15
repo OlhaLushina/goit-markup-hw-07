@@ -3,19 +3,19 @@
     padding-bottom: 0;
 }
 
-.features-list {
+.icons {
     display: flex;
 }
 
-.feature-item {
+.cards__item {
     width: 270px;
 }
 
-.feature-item:not(:last-child) {
+.cards__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.feature-icon-wrap {
+.cards__wrap {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@
     border-radius: 4px;
 }
 
-.feature-title {
+.cards__title {
     margin-bottom: 10px;
 
     font-size: 14px;
@@ -38,7 +38,7 @@
     color: var(--title-text-color);
 }
 
-.feature-descr {
+.cards__descr {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }

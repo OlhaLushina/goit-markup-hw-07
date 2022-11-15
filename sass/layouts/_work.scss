@@ -1,21 +1,21 @@
 /*---------Чим ми займаємося----------------*/
-.work-list {
+.work {
     display: flex;
 }
 
-.work-item {
+.work__item {
     width: 370px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
-.work-item:not(:last-child) {
-    margin-right: 30px;
-}
-
-.work-thumb {
+.work__thumb {
     position: relative;
 }
 
-.work-title {
+.work__title {
     position: absolute;
     left: 0;
     bottom: 0;
